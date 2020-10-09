@@ -20,9 +20,9 @@ class osutazerj(BaseCog):
         
         await ctx.send("OsuTazerJ BETA v0.1 by Siwat Sirichai")
     @commands.command()
-    async def tazer(self, ctx, arguments: str):
-        pram = arguments.split(' ')
+    async def tazer(self, ctx, node_name: str, power: float):
         msg = "ERROR!"
-        if msg == "Siwat":
-            msg = "Tazering "
-        await ctx.send(arguments)
+        voltage = power/100.0*15 
+        if node_name == "Siwat":
+            msg = "Tazering "+node_name+" with "+voltage+" kV" 
+        await ctx.send(msg)
