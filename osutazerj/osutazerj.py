@@ -16,4 +16,13 @@ class osutazerj(BaseCog):
 
     @commands.command()
     async def osutazerj(self, ctx):
+        
+        
         await ctx.send("OsuTazerJ BETA v0.1 by Siwat Sirichai")
+    @commands.command()
+    async def tazer(self, ctx, *arguments: str):
+        pram = str.split(' ')
+        msg = "ERROR!"
+        if msg == "Siwat":
+            msg = "Tazering "
+        await ctx.send(pram[0])
