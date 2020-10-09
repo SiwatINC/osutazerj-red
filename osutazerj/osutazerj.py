@@ -24,5 +24,5 @@ class osutazerj(BaseCog):
         msg = "ERROR!"
         voltage = power/100.0*15 
         if node_name == "Siwat":
-            msg = "Tazering "+node_name+" with "+voltage+" kV" 
+            msg = "Tazering "+node_name+" with "+voltage+" kV at 192.168.0.126" 
         await ctx.send(msg)
