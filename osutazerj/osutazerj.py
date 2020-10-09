@@ -21,7 +21,7 @@ class osutazerj(BaseCog):
         await ctx.send("OsuTazerJ BETA v0.1 by Siwat Sirichai")
     @commands.command()
     async def tazer(self, ctx, *arguments: str):
-        pram = str.split(' ')
+        pram = arguments.split(' ')
         msg = "ERROR!"
         if msg == "Siwat":
             msg = "Tazering "
