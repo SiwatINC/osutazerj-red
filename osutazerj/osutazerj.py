@@ -25,4 +25,4 @@ class osutazerj(BaseCog):
         msg = "ERROR!"
         if msg == "Siwat":
             msg = "Tazering "
-        await ctx.send(pram[0])
+        await ctx.send(str)
