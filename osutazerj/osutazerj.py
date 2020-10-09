@@ -4,7 +4,7 @@ from redbot.core import commands
 BaseCog = getattr(commands, "Cog", object)
 
 
-class Pingtime(BaseCog):
+class osutazerj(BaseCog):
     """🏓"""
 
     async def red_delete_data_for_user(self, **kwargs):
