@@ -1,0 +1,14 @@
+  
+{
+	"author": [
+		"Siwat INC"
+	],
+	"description": "Connector for Siwat's OSUTazerJ",
+    "install_msg": "Thanks for installing, have fun torturing your self.",
+	"short": "otj",
+	"tags": [
+        "tazer"
+	],
+	"type": "COG",
+	"end_user_data_statement": "I won't be responsible for death!"
+}

@@ -1,0 +1,19 @@
+from redbot.core import commands
+
+
+BaseCog = getattr(commands, "Cog", object)
+
+
+class Pingtime(BaseCog):
+    """🏓"""
+
+    async def red_delete_data_for_user(self, **kwargs):
+        """ Nothing to delete """
+        return
+
+    def __init__(self, bot):
+        self.bot = bot
+
+    @commands.command()
+    async def osutazerj(self, ctx):
+        await ctx.send("OsuTazerJ BETA v0.1 by Siwat Sirichai")
